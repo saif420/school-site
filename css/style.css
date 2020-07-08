@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    padding: 0;
 }
 h1,
 h2,
@@ -10,3 +9,252 @@ h5,
 h6{
     font-family: 'Poppins', sans-serif;
 }
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+/* nav bar start */
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    width: 15%;
+}
+.navbar{
+    background-color: #F0FFF0;
+}
+.nav-item{
+    font-size: 16px;
+    padding: 15px 20px !important;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in;
+}
+.nav-link{
+    color: #000 !important;
+}
+.nav-item:hover{
+    background: #21B573;
+    border-radius: 15px;
+}
+.nav-item.active{
+    background: #21B573;
+    border-radius: 20px;
+}
+/* nav bar end */
+
+/* banner start */
+#banner{
+    background-color: #F0FFF0;
+    padding: 60px 0px;
+}
+.banner-first-text{
+    color: #FD511A;
+    font-family: Poppins;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.banner-title-text{
+    color: #000;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.banner-title-text span{
+    color: #21B573;;
+}
+.banner-second-text{
+    color: #6C6B6B;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 10px 50px 10px 0px;
+}
+.banner-button{
+    color: #FFFFFF;
+    background: #21B573;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: all 0.4s ease-in;
+}
+.banner-button:focus{
+    outline: none;
+}
+.banner-button:hover{
+    color: #000;
+    background: #abfaab;
+}
+/* banner end */
+
+/* achivement start */
+#achivement{
+    margin: 100px 0;
+}
+.card {
+    background: #F8FFFB;
+    padding-top: 15px;
+    border: none;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: none;
+    background: #FFFFFF;
+}
+.card img {
+    margin: 0 auto;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    color: #413960;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+}
+.card-text{
+    color: #585859;
+    font-family: Poppins;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+/* achivement end */
+
+/* courses start */
+/* section title */
+.section-title-text{
+    color: #413960;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.section-underline{
+    width: 18%;
+    height: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg,#5c9e79,#aef7ae);
+    margin: 0 auto;
+}
+/* section title */
+#courses .card-deck{
+    margin: 50px 0;
+}
+#courses .card{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    transition: all 1s linear;
+}
+#courses .card:hover{
+    background: #64e6ab;
+}
+#courses .card-body{
+    text-align: left;
+}
+.card-footer{
+    border: 0;
+    border-radius: unset;
+    background-color: unset;
+    padding: 0;
+}
+.card-footer img{
+    width: 20%;
+}
+.footer-img{
+    margin-left: 20px;
+}
+.footer-img small{
+    color: #585859;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+}
+/* courses end */
+
+/* testimonial start */
+.testimonial-img-text{
+    margin: 70px 0;
+}
+.testimonial-img-text img{
+    width: 45%;
+}
+.testimonial-text{
+    color: #585859;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px 20px;
+    text-transform: capitalize;
+}
+/* testimonial end */
+/* contact start */
+.contact-info{
+    margin: 100px 0;
+}
+.contact-form input {
+	display: block;
+	margin-bottom: 20px;
+	border: 0px;
+	padding: 15px 15px;
+	width: 90%;
+    text-transform: capitalize;
+    border-bottom: 2px solid #aef7ae;
+}
+.contact-form input:focus{
+    outline: none;
+}
+#message:focus{
+    outline: none;
+}
+#message {
+	padding: 15px 15px 150px;
+}
+/* contact end */
+/* footer start */
+footer{
+    background-color: #413960;
+}
+.footer-up{
+    padding: 35px 0px;
+}
+.footer-left-text {
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 20px;
+}
+.footer-list-tilte {
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 15px 38px 0px;
+    text-transform: capitalize;
+}
+.footer-item {
+    padding: 7px 0;
+}
+.footer-link{
+    color: whitesmoke;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    transition: all 0.3s linear;
+}
+.footer-link:hover{
+    color: #21B573;
+}
+.footer-down p{
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+/* footer end */
